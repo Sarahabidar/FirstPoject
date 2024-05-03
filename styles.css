@@ -10,3 +10,76 @@ header {
 .quizzApp {
   color: #f0f0f0;
 }
+header {
+  margin: 0;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #333;
+}
+.quizzApp {
+  color: #f0f0f0;
+}
+section {
+  height: 400px;
+  background-color: #f0f0f0;
+  padding: 20px;
+  margin: 20px;
+  background-color: rgba(87, 65, 107, 0.575);
+  border: 1px solid #ccc;
+  text-align: center;
+  position: relative;
+}
+.bookmark {
+  font-weight: bolder;
+  padding: 20px;
+  display: inline-block;
+}
+.answer-button {
+  width: 200px;
+  height: 50px;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+a {
+  text-decoration: none;
+  color: black;
+  display: inline-block;
+}
+.tags {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  bottom: 0;
+  position: absolute;
+  bottom: 20px;
+}
+.tags button {
+  width: 70px;
+  height: 30px;
+  border-radius: 5px;
+  margin-left: 10px;
+}
+footer {
+  height: 80px;
+  width: 100%;
+  background-color: #333;
+  position: fixed;
+  bottom: 0;
+  z-index: 20;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+}
+
+nav a {
+  color: #f0f0f0;
+  margin-top: 40px;
+}
+a:hover {
+  color: rgb(251, 160, 175);
+  font-weight: bolder;
+  font-size: large;
+}
